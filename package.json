@@ -1,7 +1,7 @@
 {
   "name": "angular-tailwind-starter",
   "displayName": "Angular Tailwind Starter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This project is designed to kickstart your Angular applications with the power of Tailwind CSS, providing a modern, responsive, and utility-first styling framework",
   "author": "Outhan Chazima",
   "license": "MIT",
@@ -23,7 +23,7 @@
     "prettier:staged": "pretty-quick --staged",
     "lint": "ng lint",
     "commit": "cz",
-    "release": "standard-version"
+    "release": "commit-and-tag-version"
   },
   "private": true,
   "dependencies": {
@@ -48,6 +48,7 @@
     "@angular/compiler-cli": "^18.2.0",
     "@types/jasmine": "~5.1.0",
     "autoprefixer": "^10.4.20",
+    "commit-and-tag-version": "^12.4.3",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "jasmine-core": "~5.2.0",
