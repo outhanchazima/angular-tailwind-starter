@@ -1,7 +1,4 @@
 <div>
-  <router-outlet></router-outlet>
-  <ngx-sonner-toaster [theme]="themeService.isDark ? 'dark' : 'light'" />
-
   <h1 class="text-3xl font-bold underline dark:text-white">Angular Tailwind Starter</h1>
 
   <div class="flex items-center">
@@ -11,4 +8,6 @@
       <div class="dot absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition"></div>
     </label>
   </div>
+  <ngx-sonner-toaster [theme]="themeService.isDark ? 'dark' : 'light'" />
+  <router-outlet></router-outlet>
 </div>
