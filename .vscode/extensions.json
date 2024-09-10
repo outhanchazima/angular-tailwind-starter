@@ -1,4 +1,17 @@
 {
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=827846
-  "recommendations": ["angular.ng-template"]
+  "recommendations": [
+    "angular.ng-template",
+    "johnpapa.angular-essentials",
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "CoenraadS.bracket-pair-colorizer",
+    "christian-kohler.path-intellisense",
+    "ritwickdey.liveserver",
+    "eamodio.gitlens",
+    "EditorConfig.EditorConfig",
+    "wayou.vscode-todo-highlight",
+    "Gruntfuggly.todo-tree"
+  ]
 }
