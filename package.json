@@ -10,7 +10,9 @@
     "tailwindcss",
     "web",
     "template",
-    "foss"
+    "foss",
+    "bestpractice",
+    "quick"
   ],
   "scripts": {
     "ng": "ng",
