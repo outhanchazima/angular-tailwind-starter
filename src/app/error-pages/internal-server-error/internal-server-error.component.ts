@@ -9,7 +9,8 @@ import { ButtonComponent } from '../../shared/components/button/button.component
   standalone: true,
   imports: [CommonModule, ButtonComponent, AngularSvgIconModule],
   template: `
-    <div class="flex max-w-lg flex-col items-center justify-center gap-2 rounded-lg bg-background p-8 text-center shadow-sm">
+    <div
+      class="flex max-w-lg flex-col items-center justify-center gap-2 rounded-lg bg-background p-8 text-center shadow-sm">
       <h1 class="text-4xl font-bold text-foreground">Oops! Server Error</h1>
       <p class="text-base text-muted-foreground">
         Please try again later. If the issue persists, feel free to contact us for assistance.

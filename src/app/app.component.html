@@ -3,7 +3,7 @@
 
   <div class="flex items-center">
     <label class="relative inline-flex items-center cursor-pointer">
-      <input type="checkbox" class="sr-only" [checked]="themeService.isDark" (change)="toggleTheme()">
+      <input type="checkbox" class="sr-only" [checked]="themeService.isDark" (change)="toggleTheme()" />
       <div class="block bg-gray-600 dark:bg-gray-400 w-11 h-6 rounded-full"></div>
       <div class="dot absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition"></div>
     </label>

@@ -39,5 +39,4 @@ export class ThemeService {
     const newMode = this.isDark ? 'light' : 'dark';
     this.theme.set({ ...this.theme(), mode: newMode });
   }
-
 }
