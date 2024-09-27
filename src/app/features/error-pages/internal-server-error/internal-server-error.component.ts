@@ -2,12 +2,12 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { AngularSvgIconModule } from 'angular-svg-icon';
-import { ButtonComponent } from '../../shared/components/button/button.component';
+import { ButtonComponent } from '../../../shared/components/button/button.component';
 
 @Component({
   selector: 'app-internal-server-error',
   standalone: true,
-  imports: [CommonModule, ButtonComponent, AngularSvgIconModule],
+  imports: [CommonModule, AngularSvgIconModule, ButtonComponent],
   template: `
     <div
       class="flex max-w-lg flex-col items-center justify-center gap-2 rounded-lg bg-background p-8 text-center shadow-sm">

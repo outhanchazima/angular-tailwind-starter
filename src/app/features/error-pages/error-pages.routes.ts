@@ -10,8 +10,7 @@ export const ERROR_PAGES_ROUTES: Routes = [
     children: [
       { path: '404', component: NotFoundComponent },
       { path: '500', component: InternalServerErrorComponent },
-      { path: '', redirectTo: '404', pathMatch: 'full' },
-      { path: '**', redirectTo: 'not-found' },
+      { path: '**', redirectTo: '404' },
     ],
   },
 ];
